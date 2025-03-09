@@ -29,7 +29,7 @@ st.sidebar.markdown(
 
 # Helper function untuk hasil analisis yang akan divisualisasikan
 # Deklarasi variabel untuk dataframe utama
-df_main = pd.read_csv("main_data.csv")
+df_main = pd.read_csv("dashboard/main_data.csv")
 
 
 # Function untuk penyesuaian input multiselect dengan output visualisasi jumlah penyewaan sepeda per bulan
