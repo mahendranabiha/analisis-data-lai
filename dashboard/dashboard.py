@@ -83,8 +83,9 @@ def status_year(df, plot):
                 df = df.drop(df.loc[(df["yr"] == 0)].index, axis=0)
                 return df
     else:
-        # Apabila tahun belum dipilih
-        raise Exception("Tahun belum dipilih")
+        """
+        Pilih tahun terlebih dahulu
+        """
 
 
 # Eksekusi function status_year pada dataframe utama
